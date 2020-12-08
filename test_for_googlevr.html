@@ -1,0 +1,14 @@
+<script src="./vrview/build/vrview.min.js" crossorig></script>
+
+<div id='vrview'></div>
+
+<script>
+    window.addEventListener('load', onVrViewLoad);
+
+    function onVrViewLoad() {
+        var vrView = new VRView.Player('#vrview', {
+            video: 'https://player.vimeo.com/external/486807433.source.mp4?s=a543ce0e7b5c93868e9d1d061be20c5ad1eac0ea&download=1',
+            is_stereo: true
+        });
+    }
+</script>
