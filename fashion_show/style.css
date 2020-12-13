@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+html,
+body {
+    margin: 0;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+body {
+    overflow: hidden;
+    background-color: #dddddd;
+}
+.logo_text {
+    position: absolute;
+    width: 100%;
+    font-weight: 400;
+    top: 50%;
+    z-index: 10;
+    color:white;
+    
+    font-family: 'Helvetica';
+    text-align: center;
+}
+.container {
+    display: block;
+    width:100vw;
+    height:100vh;
+    opacity: 0;
+}
